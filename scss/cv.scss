@@ -1,51 +1,66 @@
+$pagewitdh:780px;
+$margin: auto;
+$font-size:16px;
+$fontstrong: 26px;
+$font-family: Lucida Sans ;
+$heigthphoto: 250px;
+$floatleft: left;
+$floatright: right;
+$marginbot: 70px;
+$marginleft: 150px;
+$alignjustify: justify;
+$color: 3388BB;
+$maj: uppercase; 
+$bordbot: 3px solid #3388BB;
+
 .page {
-    width: 780px;
-    margin: auto;
-    font-size: 16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: $pagewitdh;
+    margin: $margin;
+    font-size: $font-size;
+    font-family: $font-family;
 }
 
 .infophoto {
-    height: 250px;
+    height: $heigthphoto;
 }
 
 .info {
-    float: left;
+    float: $floatleft;
 }
 
 .photo {
-    float: right;
+    float: $floatright;
 }
 
 .section{
-    margin-bottom: 70px;
+    margin-bottom: $marginbot;
 }
 
 .sec-gauche{
-    float: left;
+    float: $floatleft;
 }
 
 .sec-droite{
-    margin-left: 150px;
+    margin-left: $marginleft;
 }
 strong{
-    font-size: 26px;
+    font-size: $fontstrong;
 }
 
 .section{
-    margin-bottom: 70px;
-    text-align: justify;
+    margin-bottom: $marginbot;
+    text-align: $alignjustify;
 }
 
 h1{
-    font-size: 28px;
-    color: #3388BB;
-    text-transform: uppercase;
-    border-bottom: 3px solid #3388BB;
+    font-size: $fontstrong + 2px;
+    color: $color;
+    text-transform: $maj;
+    border-bottom: $bordbot;
 }
 
 .sec-gauche{
-    float: left;
+    float: $floatleft;
     font-weight: bold;
     font-size: 20px;
 }
