@@ -16,10 +16,11 @@ $bordbot: 3px solid #3388BB;
 .page {
     width: $pagewitdh;
     margin: $margin;
-    font-size: $font-size;
-    font-family: $font-family;
+    font; {
+        size: $font-size;
+        family: $font-family;
+    }
 }
-
 .infophoto {
     height: $heigthphoto;
 }
